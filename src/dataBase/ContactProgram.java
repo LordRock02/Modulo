@@ -10,7 +10,7 @@ public class ContactProgram {
 	public static void main(String arg[]) {
 		String jdbcURL = "	";
 		String username = "postgres";
-		String password = "patitodeHule07";
+		String password = "password";
 		
 		try {
 			Connection connection = DriverManager.getConnection(jdbcURL, username, password);
